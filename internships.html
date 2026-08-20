@@ -25,6 +25,13 @@
       <span class="logo__text">Marginalia</span>
     </a>
 
+    <label class="theme-switch" aria-label="Toggle dark mode">
+      <input type="checkbox" class="theme-check">
+      <span class="theme-switch__icon">&#9728;</span>
+      <span class="theme-switch__track"><span class="theme-switch__thumb"></span></span>
+      <span class="theme-switch__icon">&#127769;</span>
+    </label>
+
     <input type="checkbox" class="nav-check" id="navCheck">
     <label class="nav__toggle" for="navCheck" aria-label="Open menu">
       <span></span><span></span><span></span>
@@ -70,13 +77,13 @@
 <section class="category-page">
   <div class="wrap">
     <div class="stories__grid">
-      <article class="card">
-        <div class="card__image" style="background-image:url('https://images.unsplash.com/photo-1643148636630-0b0fb138fc74?auto=format&fit=crop&w=800&q=80');">
-          <span class="category">Internships</span>
+      <article class="card card--feature">
+        <div class="card__image" style="background-image:url('https://images.unsplash.com/photo-1643148636630-0b0fb138fc74?auto=format&fit=crop&w=1200&q=80');">
+          <span class="category category--gold">Editor's Pick</span>
         </div>
         <div class="card__body">
           <h3>My first week interning felt like a foreign language</h3>
-          <p>Slack etiquette, standups, and the very specific panic of your first reply-all.</p>
+          <p>Slack etiquette, standups, and the very specific panic of your first reply-all — a diary of surviving week one at a company that assumed I already knew everything.</p>
           <div class="byline"><span class="byline__avatar byline__avatar--gold">J</span><span>Jonah Klein</span><span class="dot">·</span><span class="mono">May 6</span></div>
         </div>
       </article>
@@ -110,6 +117,69 @@
           <div class="byline"><span class="byline__avatar">S</span><span>Sam Whitfield</span><span class="dot">·</span><span class="mono">Apr 12</span></div>
         </div>
       </article>
+      <article class="card">
+        <div class="card__image" style="background-image:url('https://images.unsplash.com/photo-1729799959058-bda08177a84c?auto=format&fit=crop&w=800&q=80');">
+          <span class="category">Internships</span>
+        </div>
+        <div class="card__body">
+          <h3>The unglamorous truth about unpaid internships</h3>
+          <p>A frank breakdown of what one actually costs — and when it might still be worth it.</p>
+          <div class="byline"><span class="byline__avatar byline__avatar--gold">R</span><span>Rhea Fontaine</span><span class="dot">·</span><span class="mono">Apr 5</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__image" style="background-image:url('https://images.unsplash.com/photo-1775229106888-dca42d0c9f4f?auto=format&fit=crop&w=800&q=80');">
+          <span class="category">Internships</span>
+        </div>
+        <div class="card__body">
+          <h3>What my manager actually meant in that feedback email</h3>
+          <p>Decoding corporate-speak when you're three weeks into your very first job.</p>
+          <div class="byline"><span class="byline__avatar">M</span><span>Marco Diaz</span><span class="dot">·</span><span class="mono">Mar 29</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="quote-section">
+  <div class="wrap quote-section__inner">
+    <span class="quote-mark" aria-hidden="true">&#8220;</span>
+    <p class="quote-text">I wrote about bombing my first interview because I figured someone else was googling the exact same panic at 1am. Turns out a lot of people were.</p>
+    <div class="quote-attrib">
+      <span class="byline__avatar byline__avatar--lg byline__avatar--gold">J</span>
+      <div>
+        <p class="quote-name">Jonah Klein</p>
+        <p class="mono quote-role">Computer Science, Class of '27</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="why">
+  <div class="wrap">
+    <div class="section-head section-head--center section-head--light">
+      <p class="eyebrow eyebrow--light">Got an internship story?</p>
+      <h2>Write the post you wish you'd read<svg class="squiggle squiggle--center" viewBox="0 0 260 16" preserveAspectRatio="none" aria-hidden="true"><path d="M2 12 C 35 2, 65 16, 95 8 C 125 0, 155 15, 185 7 C 210 1, 235 12, 258 5" /></svg></h2>
+    </div>
+    <div class="why__grid">
+      <div class="why__card">
+        <div class="why__icon">&#9998;</div>
+        <h3>First offers</h3>
+        <p>How you found it, applied, and what the interview actually felt like.</p>
+      </div>
+      <div class="why__card">
+        <div class="why__icon">&#9833;</div>
+        <h3>First weeks</h3>
+        <p>The onboarding chaos, the tools nobody explained, the small wins.</p>
+      </div>
+      <div class="why__card">
+        <div class="why__icon">&#10022;</div>
+        <h3>Lessons learned</h3>
+        <p>What you'd tell a friend applying to the same kind of role next year.</p>
+      </div>
+    </div>
+    <div class="stories__more" style="margin-top:36px;">
+      <a href="signup.html" class="btn btn--ghost" style="border-color:var(--gold-400); color:var(--gold-400);">Start writing &#8594;</a>
     </div>
   </div>
 </section>
